@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" type="x-icon" href="img/logo1.png">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/3.0.1/js.cookie.min.js"></script>
+    <script src="path/to/js.cookie.min.js"></script>
+	<title>Регистрација на профил</title>
+	<link rel="stylesheet" href="./css/stylelogin.css">
+</head>
+<body>
+	
+	<div class="container">
+		<h1 class="label">Регистрација</h1>
+		<form class="login_form" action="indexglaven.html" method="get" name="form" onsubmit="return validated()">
+			<div class="font">Е-пошта</div>
+			<input  autocomplete="off" type="text" name="email">
+			<div id="email_error">Ве молам внесете го вашиот точен email или телефон</div>
+			<div class="font font2">Лозинка</div>
+			<input type="password" name="password">
+			<div class="loz">Лозинката мора да има повеќе од 6 букви</div>
+			<div id="pass_error">Ве молам внесете поголема лозинка</div>
+			<a href="indexglaven.html"><button type="submit">Регистрирај се</button></a>
+			<script src="./java/profil.js"></script>
+		</form>
+		<form class="login_forma" action="indexglaven.html" >
+		<a href="indexglaven.html"><button type="continue" button title="продолжи">Врати се на почетна</button></a>
+	</form>
+
+	</div>	
+	
+	
+</body>
+</html>

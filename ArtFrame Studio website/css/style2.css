@@ -1,0 +1,25 @@
+.container {
+    width: 1752px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.btn {
+    padding: 9.6px 36px;
+    border: 1px solid transparent;
+    border-radius: 60px;
+    outline: none;
+    cursor: pointer;
+    font-size: 19.2px;
+    transition: all .4s ease-in-out;
+}
+
+.btn-primary {
+    color: var(--dark);
+    background: var(--pure);
+}
+
+.btn-primary:hover {
+    background: transparent;
+    color: var(--pure);
+    border-color: var(--pure);
+}
