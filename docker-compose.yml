@@ -3,4 +3,5 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    restart: unless-stopped
+    cpus: 0.5
+    mem_limit: 512m
